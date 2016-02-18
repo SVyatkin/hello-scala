@@ -4,6 +4,6 @@ applications:
   memory: 256M
   instances: 1
   host: hello-scala-${random-word}
-  domain: cfapps.io
+  domain: predix.io
   path: .
   buildpack: https://github.com/heroku/heroku-buildpack-scala.git
